@@ -1,3 +1,11 @@
+# SQL 
+
+This file is dedicated to the SQL coursework by Analytics Vidhya. Following are the modules and concepts discussed. 
+
+# 📍 Introduction
+
+  
+
 # 📍 Creating and Modifying Database and Tables
 
 * Create a database named JobPortal.
