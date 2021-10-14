@@ -84,8 +84,3 @@ SELECT COUNT(*) FROM Players WHERE joined >= "2018-05-20" AND joined <= "2019-04
 --Find the number of players who joined the clubs year wise
 
 SELECT COUNT(*) AS FREQ, YEAR(joined) FROM Players GROUP BY YEAR(joined);
-
-
-
-
-
