@@ -45,7 +45,5 @@
         * How many players have joined their respective clubs yearly? 
 ## 📍 Analysing the data and creating a table structure for MySQL
       * Check the datatypes of columns of csv file which further helps in table creation in MySQL. 
-## 📍 Loading data into SQL
-      * Refer here for the queries on database creation and loading the data to SQL. 
-## 📍 Analysing and Querying
-      * 
+## 📍 Loading data into SQL, Analysing and Querying 
+      * Refer [here]{https://github.com/sarathchandrikak/Business-Analyst/blob/main/SQL/FIFA%20Analysis/analysis.sql} for the queries on database creation and loading the data to SQL. 
