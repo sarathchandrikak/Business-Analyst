@@ -219,8 +219,8 @@ This file is dedicated to the SQL coursework by Analytics Vidhya. Following are 
 
  # 📍 MySQL connection with Python
  
-   *  Connection is established with the help of mysql-connector package.
-   *  Refer here for complete code of coneecting to DB using python.
+   *  Connection is established with the help of mysql-connector or mysql-connector-python package.
+   *  Refer [here](https://github.com/sarathchandrikak/Business-Analyst/blob/main/SQL/MySQL-Python-Connection.md) for complete code of coneecting to DB using python.
 
 
     
