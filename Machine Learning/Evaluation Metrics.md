@@ -80,17 +80,32 @@ Precision
 ```math 
    Precision = TP / TP + FP 
 ```
+   * Avoiding false positives is more important than encountering false negatives. 
    
 Recall
    * It is defined as ratio of values predicted as positives to total number of positives. 
+   * Out of all positive values, how many did the machine predicted as positive. 
 
 ```math
    Recall = TP / TP + FN 
 ```
+   * Avoiding false negatives is prioritised over encountering false positives. 
 
-## 👉 F1 Mean 
+## 👉 F1 Score
 
-Harmonic mean of Precision and Recall. It is maximum when precision = recall
+Harmonic mean of Precision and Recall. Since its the mean, it is maximum when precision = recall. More the F1 Score better is the model. 
+
+## 👉 Thresholding
+
+Calculating the probabilities of TPR, TNR, FPR and FNR by modifying the threshold values instead of changing the model.
+
+## 👉 AUC ROC
+
+* AUC stands for area under the curve. 
+* ROC stands for Receiver Operating Characteristic. 
+* AUC ROC implies area under the ROC curve. 
+* It is used as an evaluation metric for binary classification.
+* This metric gives the trade off between the true positives and false positives. 
 
 
 
