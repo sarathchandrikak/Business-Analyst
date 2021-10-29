@@ -4,6 +4,7 @@ Here, evaluation metrics used for Supervised Learning are included. The two type
 Classification refers to the division of data into classes or categories and regression problems deals with predicting values. 
 Here are some of the evaluation metrics used for Supervised Learning.
 
+# 📍Evaluation Metrics for Classification
 
 ## 👉 Confusion Matrix
 
@@ -106,15 +107,37 @@ Calculating the probabilities of TPR, TNR, FPR and FNR by modifying the threshol
 * AUC ROC implies area under the ROC curve. 
 * It is used as an evaluation metric for binary classification.
 * This metric gives the trade off between the true positives and false positives. 
+* It cannot be used to compare two models, since it doesn't consider the value of probability, 
+
+## 👉 Log Loss
+
+* It is the negative average of the log of corrected probabilities in each instance.
+* Corrected probabilities are the probability values for all occurance predicted as 1. Probability of an event being 1 = 1 - probability of event being 0.
+![](https://github.com/sarathchandrikak/Business-Analyst/blob/main/images/log_loss.png) 
 
 
+# 📍Evaluation Metrics for Regression 
 
+Following are the different metrics:
 
+* Mean Absolute Error 
+* Mean Squared Error
+* Root mean Squared Error
+* Root Mean Squared Log Error
+* R-Squared
+* Adjusted R-Squared
 
+In the above metrices, error is defined as the difference between actual and predicted values. 
 
+» Mean Absolute Error -> Mean of absolute of errors. 
 
+» Mean Squred Error -> Mean of Square of the errors. A drawback to this is it changes the unit of the error.
 
+» Root mean Squared Error -> Root of the mean of square of error. It is most commonly used for regression problems. 
 
-      
+» Root mean Square Log Error -> For some cases RMSE seems to be same even with much variation in the actual and predicted values, since it just considers the difference. 
+To overcome such situations log values followed by squares of the values are computed. 
 
-       
+» R-Squared -> R-squared explains to what extent the variance of one variable explains the variance of the second variable.
+
+» Adjusted R-Squared -> Adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. The adjusted R-squared increases when the new term improves the model more than would be expected by chance. It decreases when a predictor improves the model by less than expected. Typically, the adjusted R-squared is positive, not negative. It is always lower than the R-squared.
